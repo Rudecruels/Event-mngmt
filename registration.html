@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="registration.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <header class="masthead">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-12 ">
+                <form action="connect.php" method="POST">
+                    <div class="text-center">
+                        <h1>Registration</h1>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" class="form-control" id="Name" placeholder="Enter Your Name" name="firstname">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="MobileNumber">Mobile Number</label>
+                        <input type="number" class="form-control" id="MobileNumber" placeholder="Enter Your Mobile Number" name="number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Branch">Branch</label>
+                        <select class="form-control" name="department" id="Branch">
+                          <option >Select Branch</option>
+                          <option value="ME">Mechanical</option>
+                          <option value="CE">Civil</option>
+                          <option value="CSE">Computer Science</option>
+                          <option value="EEE">Electrical</option>
+                          <option value="EC">Electronics</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Semester">Semester</label>
+                        <select class="form-control" name="semester" id="Semester">
+                          <option value="s1">S1</option>
+                          <option value="s2">S2</option>
+                          <option value="s3">S3</option>
+                          <option value="s4">S4</option>
+                          <option value="s5">S5</option>
+                          <option value="s6">S6</option>
+                          <option value="s7">S7</option>
+                          <option value="s8">S8</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UniversityID">University ID</label>
+                        <input type="text" class="form-control" id="UniversityID" placeholder="Enter Your University ID" name="Uid">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Programms">Programme</label>
+                        <select class="form-control" name="programme" id="Programms">
+                          <option value="a">Select your programme</option>
+                          <option value="Story Writing Malayalam">Story Writing Malayalam</option>
+                          <option value="Story Writing English">Story Writing English</option>
+                          <option value="Essay Writing Malayalam">Essay Writing Malayalam</option>
+                          <option value="Essay Writing English">Essay Writing English</option>
+                          <option value="Cartoon">Cartoon</option>
+                          <option value="Pencil Drawing">Pencil Drawing</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    
+                  </form>
+            </div>
+          </div>
+        </div>
+    </header>
+   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha512-/DXTXr6nQodMUiq+IUJYCt2PPOUjrHJ9wFrqpJ3XkgPNOZVfMok7cRw6CSxyCQxXn6ozlESsSh1/sMCTF1rL/g==" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

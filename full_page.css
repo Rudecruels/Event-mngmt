@@ -1,0 +1,18 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.display-4{
+    font-family: 'Lobster Two', cursive;
+    font-size: 5.5rem;
+    line-height: 8.2;
+}
+.nav-item{
+    color: white;
+}

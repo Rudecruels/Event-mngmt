@@ -1,0 +1,13 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading{
+    font-family: 'Lobster Two', cursive;
+    font-size: 3.5rem;
+    color: #730000; 
+}
